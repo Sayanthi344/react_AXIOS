@@ -1,0 +1,98 @@
+body {
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+    color: #d1d5db;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column grid */
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-height: 150px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background-color: #10b981;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #ef4444;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1a1e27; /* Dark background */
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+  
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    background-color: #1abc9c; /* Green add button */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
